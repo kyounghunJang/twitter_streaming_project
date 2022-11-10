@@ -1,0 +1,7 @@
+requests
+torch==1.11.0
+tqdm
+transformers
+sentence-transformers
+eland==8.2
+elasticsearch==8.4.2
