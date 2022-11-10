@@ -6,7 +6,7 @@ import logging
 
 
 def bearer_oauth(r): #twitter api bearer key값 정보
-    r.headers["Authorization"] = f"Bearer AAAAAAAAAAAAAAAAAAAAADEfhQEAAAAA9042KM%2FGTV6Dp2jWmM12VqEcAYY%3Dpvl66sqquCfxOkkkmL45lETdcvQe7v3W2uXznLrE54vNS65HGy"
+    r.headers["Authorization"] = f"Bearer input your twitter api_v2 bearer key"
     r.headers["User-Agent"] = "v2FilteredStreamPython"
     return r
 
