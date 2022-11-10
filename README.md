@@ -1,6 +1,6 @@
 
 # ELK Stack을 사용한 twitter 실시간 데이터 감정분석 Keyword:날씨 
-###### 프로젝트 진전 블로그 포스팅링크 <https://codingjang.tistory.com/category/%EA%B0%9C%EC%9D%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/twitter%20%EC%8B%A4%EC%8B%9C%EA%B0%84%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%28ELK%20stack%29> 
+###### 프로젝트 진행 블로그 포스트: <https://codingjang.tistory.com/category/%EA%B0%9C%EC%9D%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/twitter%20%EC%8B%A4%EC%8B%9C%EA%B0%84%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%28ELK%20stack%29> 
 ------------
 ## 프로젝트 계획이유
 
@@ -23,3 +23,6 @@
 4. python 컨테이너에 있는 send_data.py 스크립트를 실행시킨다 (twitter api bearer key 입력 필요)  
 5. dashboard 제작
 
+## 프로젝트 결과물
+
+![대시보드 완성 이미지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FL7cuc%2FbtrQK2tXfJ4%2FGqXfh0KkgZZCorlLT5x8v1%2Fimg.png)
