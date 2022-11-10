@@ -1,0 +1,42 @@
+[
+    {
+      "inference": {
+        "model_id": "matthewburke__korean_sentiment",
+        "target_field": "predict",
+        "field_map": {
+          "data": "text_field"
+        },
+        "inference_config": {
+          "text_classification": {
+            "classification_labels": [
+              "부정적",
+              "긍정적"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "set": {
+        "field": "sentiment-predict",
+        "value": "{{{predict.predicted_value}}}"
+      }
+    },
+    {
+      "set": {
+        "field": "predict-probability",
+        "value": "{{{predict.prediction_probability}}}"
+      }
+    },
+    {
+      "convert": {
+        "field": "predict-probability",
+        "type": "float"
+      }
+    },
+    {
+      "remove": {
+        "field": "predict"
+      }
+    }
+  ]

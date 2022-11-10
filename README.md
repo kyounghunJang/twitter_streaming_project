@@ -8,5 +8,17 @@
 ------------
 ## 데이터 파이프라인 구성
 
-![파이프라인 구성 이미지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FGW0KH%2FbtrOvcj8jbV%2FKSj6osLnIa2sy0oKi4BbWk%2Fimg.png)
+![파이프라인 구성 이미지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcoz0RT%2FbtrQPeHYcp9%2Fc4GC0Y0Ymk8gKcvzN87vKk%2Fimg.png)
+
+#### 위의 그림과 같이 twitter streaming을 python을 통해 filebeat로 보낸 후 logstash에서 전처리를 한 후 elasticsearch에 저장하고 kibana로 시각화를 하는 파이프라인을 구성했다.
+
+-------------
+
+## 실행 방법
+
+1. docker compose up 명령어로 컨테이너를 생성  
+2. python 컨테이너에서 deploy_model script를 실행시켜 머신러닝 모델을 적용시켜준다 (script 파일 위치는 /usr/share/script/deploy_model.py)  
+3. elasticsearch/config/ingest_pipeline_processors.json에 있는 process를 kibana console ingest pipeline에 적용시켜 준다
+4. python 컨테이너에 있는 send_data.py 스크립트를 실행시킨다 (twitter api bearer key 입력 필요)  
+5. dashboard 제작
 
