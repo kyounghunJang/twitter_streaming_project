@@ -26,3 +26,7 @@
 ## 프로젝트 결과물
 
 ![대시보드 완성 이미지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FL7cuc%2FbtrQK2tXfJ4%2FGqXfh0KkgZZCorlLT5x8v1%2Fimg.png)
+
+-------------
+## 프로젝트 회고
+<https://codingjang.tistory.com/43> 프로젝트 회고는 이 링크에 포스팅했습니다.
